@@ -83,13 +83,13 @@ body {
     width: 25px;
     transform: rotate(-45deg);
     border-radius: 0;
-    transition: .2s;
+    transition: 5s;
 }
 
 .list span {
     position: relative;
     left: 40px;
-    transition: .5s;
+    transition: 5s;
 }
 
 .list span:before {
@@ -102,13 +102,13 @@ body {
     background: #fff;
     transform: translateY(-50%) scaleX(0);
     transform-origin: right;
-    transition: transform .5s;
+    transition: transform 5s;
 }
 
 .list input[type="checkbox"]:checked ~ span:before {
     transform: translateY(-50%) scaleX(1);
     transform-origin: left;
-    transition: transform .5s;
+    transition: transform 5s;
 }
 
 .list input[type="checkbox"]:checked ~ span {
